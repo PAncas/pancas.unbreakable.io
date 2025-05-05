@@ -30,11 +30,6 @@ for person in people:
     if success:
         print(f"Added {person} to flight successfully.")
     else:
+        
         print(f"No available seat for {person}")    
 
-#optimized
-#for person in people:
-    #if flight.add_passenger(person):
-        #print(f"Added {person} to flight successfully.")
-    #else:
-        #print(f"No available seat for {person}") 
